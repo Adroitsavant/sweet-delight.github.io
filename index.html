@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sweet Delight Cookies</title>
+ <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"  />
+    
+</head>
+
+<body>
+  <header class="header">
+    <h1><i>Sweet Delight</i></h1>
+    
+    <nav >
+      <div class="hamster"></div>
+      <div class="hamster"></div>
+      <div class="hamster"></div>
+    </nav>
+    <nav class="navigation">
+      <ul class="dropdown">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+    </nav>
+    
+    
+  </header>
+  <section id="home">
+   
+  </section>
+  <section class="about">
+    <h2>Delicious Pastries & Cookies
+    </h2>
+    <p>Experience the finest selection of freshly baked treats, crafted with love and care</p>
+    <button type="submit"><a href="#products">Order Now</a></button>
+    
+    
+    
+    <div>
+  <img src="hero.jpg" alt="Cookies" style="float: left; margin: 0 15px 10px 0; width: 200px;">
+  <p>
+    Welcome to our cookie shop! We bake fresh, delicious cookies every day using only the best ingredients.
+    Our cookies come in a variety of flavors to satisfy every craving. From classic chocolate chip to red velvet...
+  </p>
+
+  </section>
+  <section id="shop">
+    
+    <img src="hero.jpg" alt="" />
+    
+    
+    <img src="peanut.jpg" alt="" />
+    
+    
+    <img src="chocolate.jpg" alt="" />
+    
+  </section>
+  <section id="about">
+    
+     <img src="about.jpg" alt="" style=" float: right; width: 200px;" />
+    
+    <h3>About us</h3>
+    <p>
+Welcome to Sweet Delight, where every bite is a sweet escape! Our passion is crafting delicious, handcrafted pastries and cookies made from the finest ingredients. With years of baking expertise and a love for creativity, we bring you treats that not only taste amazing but also bring warmth and joy to your day.<br />At Sweet Delight, we believe in quality, freshness, and the magic of homemade flavors. Whether you crave classic cookies, rich pastries, or seasonal specialties, our bakery is your cozy corner for indulgence.<br>Join us on this delightful journey—because life is sweeter with a perfect pastry in hand.
+    </p>
+    
+   
+    
+  </section>
+  <section id="products">
+    <h3>Our products</h3>
+    <div class="products">
+      <div>
+      <img src="chocolate.jpg" alt="" />
+      <p>₦300</p>
+      <button type="submit"><a href="https://wa.me/2349022936626" target="_blank">order</a></button>
+      </div>
+      <div>
+      <img src="peanut.jpg" alt="" />
+      <p>₦500</p>
+      <button type="submit"><a href="https://wa.me/2349022936626" target="_blank">order</a></button>
+      </div>
+      <div>
+      <img src="chocolate.jpg" alt="" />
+       <p>₦200</p>
+      <button type="submit"><a href="https://wa.me/2349022936626" target="_blank">order</a></button>
+      </div>
+      <div>
+      <img src="peanut.jpg" alt="" />
+      <p>₦300</p>
+    <button type="submit"><a href="https://wa.me/2349022936626" target="_blank">order</a></button>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h3>Contact Us</h3>
+    
+    <form action="mailto: savantadroit@gmail.com" method="Post" accept-charset="utf-8">
+      <fieldset>
+        <legend align="center">We love to hear from you! Reach out to place an order or ask questions.</legend>
+        <div class="contact">
+    <input type="text" name="name" id="name" placeholder="Your Name">
+        
+        <input type="email" name="email" id="email" placeholder="Your email">
+        
+        <textarea name="" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
+        
+        <input type="submit" value="Send Message" accesskey="Alt-S" id="submit">
+        </div>
+      </fieldset>
+      
+      
+    </form>
+    
+  </section>
+  <footer>
+    <ul>
+      <li>Phone: +2349069645938</li>
+      <li>Address: 123 Cookie Lane, Pastryville</li>
+    </ul>
+  </footer>
+  
+
+</body>
+<script>
+
+document.querySelector(".hamster").onclick = toggleDropdown;
+  function toggleDropdown() {
+    let dropdown = document.querySelector(".navigation");
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  }
+</script>
+</html>

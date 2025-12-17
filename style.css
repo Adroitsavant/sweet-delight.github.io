@@ -1,0 +1,162 @@
+
+body{
+  background: #F5E9D3;
+  color: #7b4f39;
+  margin:0px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.navigation{
+  
+  padding-top: 30px;
+  text-align: center;
+}
+.navigation ul{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+list-style: none;
+
+}
+
+
+h1, h2, h3{
+  color: #4E342E;
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+#home {
+  background: url('hero.jpg');
+  background-size: cover;
+  color: #fff;
+  height: 500px;
+  width: 100%;
+}
+ 
+ img{
+   width: 50%;
+   border-radius: 20px;
+ }
+
+#shop{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+  background: #7b4f39;
+}
+#shop img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+#about{
+  width: 100%;
+  
+}
+
+.products{
+  display: flex;
+justify-content: space-evenly;
+}
+
+.contact{
+  
+  display: flex;
+  flex-direction: column ;
+  margin: 2px 10px;
+  padding: 30px 0px;
+}
+
+
+input, textarea{
+  padding:20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+}
+
+button, #submit {
+  background-color: #ff7f50;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+button:hover {
+  background-color: #e05a26;
+}
+
+.hamster{
+  display:none;
+  padding: 2px;
+  width: 30px;
+  margin:2px;
+  background: black;
+  color: black;
+
+}
+
+ .navigation ul li a{
+   padding: 8px 12px;
+   color: #333;
+ }
+
+
+ .navigation ul li a:hover{
+  background: #f2f2f2;
+}
+
+
+@media (max-width:764px){
+  
+  .navigation{
+    display: none;
+  }
+  
+  .hamster{
+    display: block;
+  }
+  h1{
+    margin-top:0px;
+  }
+  h1, h2, h3{
+    font-size: 30px;
+  }
+  
+  .navigation{
+    position: relative;
+   margin-trim: 35px;
+   
+  }
+  
+  .navigation ul{
+    display: inline-block;
+    position: absolute ;
+     top:3px;
+    right: 3px;
+  }
+  
+  input, textarea{
+    font-size: 10px;
+  }
+}
